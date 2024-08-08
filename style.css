@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height:1500px;
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.flex {
+  display: flex;
+}
+
+/* Navigation Menu */
+header {
+  position: sticky;
+  top: 0;
+}
+header .container {
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+ul {
+  gap: 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+nav ul a {
+  color: #2a54de;
+  text-transform: capitalize;
+}
+/* hero section */
+.hero {
+  height: 600px;
+  background: linear-gradient(#2a54de, #6a94f7);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: capitalize;
+}
+.hero h1 {
+  font-size: 45px;
+}
+.hero p {
+  font-size: 35px;
+  border-bottom: 2px dotted rgb(243, 236, 236);
+}
